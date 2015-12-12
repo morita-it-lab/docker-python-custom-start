@@ -7,4 +7,6 @@ RUN chmod -v +x /docker-start.sh
 VOLUME /usr/local/projects
 WORKDIR /usr/local/projects
 
+EXPOSE 80
+
 CMD ["/docker-start.sh"]
